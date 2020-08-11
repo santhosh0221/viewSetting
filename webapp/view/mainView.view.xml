@@ -1,0 +1,51 @@
+<mvc:View controllerName="assignment.viewSetting.controller.mainView" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page">
+					<content>
+						<Table id="mainTableId" items="{/Product}">
+							<headerToolbar>
+								<OverflowToolbar>
+									<Title text="Mobile"/>
+									<ToolbarSpacer/>
+									<Button tooltip="sort the items" press="onPressSort" icon="sap-icon://sort"/>
+									<Button tooltip="filter the items" press="onPressFilter" icon="sap-icon://filter"/>
+									<Button tooltip="group the items" press="onPressGroup" icon="sap-icon://group-2"/>
+								</OverflowToolbar>
+							</headerToolbar>
+							<infoToolbar>
+								<OverflowToolbar id="vsdFilterBar" visible="false">
+									<Text id="vsdFilterLabel"/>
+								</OverflowToolbar>
+							</infoToolbar>
+							<columns>
+								<Column width="12em">
+									<Text text="Product"/>
+								</Column>
+								<Column minScreenWidth="Tablet" demandPopin="true">
+									<Text text="brand"/>
+								</Column>
+								<Column minScreenWidth="Desktop" demandPopin="true" hAlign="End">
+									<Text text="Dimensions"/>
+								</Column>
+								<Column hAlign="End">
+									<Text text="Price"/>
+								</Column>
+							</columns>
+							<ColumnListItem>
+								<cells>
+									<ObjectIdentifier title="{id}" text="{name}"/>
+									<Text id="brand" text="{brand}"/>
+									<RatingIndicator maxValue="5" class="sapUiSmallMarginBottom" value="{rating}" tooltip="Rating Tooltip"/>
+									<ObjectNumber number="{ parts:[{path:'price'},{path:'currency'}], type: 'sap.ui.model.type.Currency', formatOptions: {showMeasure: false} }"
+										unit="{currency}"/>
+								</cells>
+							</ColumnListItem>
+						</Table>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

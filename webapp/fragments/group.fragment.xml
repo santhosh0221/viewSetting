@@ -1,0 +1,8 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<ViewSettingsDialog id="group" confirm="onConformGroup">
+		<groupItems>
+			<ViewSettingsItem text="brand" key="brand"/>
+			<ViewSettingsItem text="rating" key="rating"/>
+		</groupItems>
+	</ViewSettingsDialog>
+</core:FragmentDefinition>

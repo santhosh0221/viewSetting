@@ -1,0 +1,25 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<ViewSettingsDialog id="filter" confirm="onConformFilter">
+		<filterItems>
+			<ViewSettingsFilterItem text="rating" key="rating" multiSelect="false">
+				<items>
+					<ViewSettingsItem text="Less than 3" key="rating___LE___3___X"/>
+					<ViewSettingsItem text="Between 3 and 4" key="rating___BT___3___4"/>
+					<ViewSettingsItem text="More Than 4" key="rating___GT___4___X"/>
+				</items>
+			</ViewSettingsFilterItem>
+			<ViewSettingsFilterItem text="price" key="price" multiSelect="false">
+				<items>
+					<ViewSettingsItem text="Less Than 30000" key="price___LE___27000___X"/>
+					<ViewSettingsItem text="Between 30000 and 50000" key="price___BT___30000___50000"/>
+					<ViewSettingsItem text="More Than 50000" key="price___GT___50000___X"/>
+				</items>
+			</ViewSettingsFilterItem>
+			<ViewSettingsFilterItem items="{filter>/sortBrand}" text="brand" key="brand" multiSelect="false">
+				<items >
+					<ViewSettingsItem text="{filter>text}" key="{filter>key}"/>
+				</items>
+			</ViewSettingsFilterItem>
+		</filterItems>
+	</ViewSettingsDialog>
+</core:FragmentDefinition>

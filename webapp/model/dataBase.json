@@ -1,0 +1,67 @@
+{
+	"Product": [{
+		"id": 1,
+		"name": "ROG-2",
+		"image": "https://fdn2.gsmarena.com/vv/pics/asus/asus-rog-phone2-1.jpg",
+		"brand": "asus",
+		"rating": 5,
+		"price": 28999,
+		"currency": "inr"
+	}, {
+		"id": 2,
+		"name": "Asus 6Z",
+		"image": "https://rukminim1.flixcart.com/image/416/416/jx0prbk0/mobile/y/t/v/asus-6z-zs630kl-2a014ww-original-imafhkqythzfmjp8.jpeg?q=70",
+		"brand": "asus",
+		"rating": 2.9,
+		"price": 27990,
+		"currency": "int"
+	}, {
+		"id": 3,
+		"name": "p40 Pro",
+		"image": "https://www.tme.net/wp-content/uploads/2019/08/huawe-p40-pro-585x523.jpg",
+		"brand": "huawe",
+		"rating": 2.8,
+		"price": 73999,
+		"currency": "inr"
+	}, {
+		"id": 4,
+		"name": "X2 pro",
+		"image": "https://www.tme.net/wp-content/uploads/2019/08/huawe-p40-pro-585x523.jpg",
+		"brand": "Realme",
+		"rating": 5,
+		"price": 29999,
+		"currency": "inr"
+	}, {
+		"id": 5,
+		"name": "k20 pro",
+		"image": "https://i.gadgets360cdn.com/large/redmi_k20_series_one_million_1561958746301.jpg?output-quality=80",
+		"brand": "readme",
+		"rating": 3.6,
+		"price": 26999,
+		"currency": "inr"
+	}, {
+		"id": 6,
+		"name": "One plus 7 Pro",
+		"image": "https://i.gadgets360cdn.com/products/large/1556971214_635_oneplus_7_pro.jpg",
+		"brand": "One plus",
+		"rating": 3.8,
+		"price": 48999,
+		"currency": "inr"
+	}, {
+		"id": 7,
+		"name": "note 10+",
+		"image": "https://images-na.ssl-images-amazon.com/images/I/61LGgNjwg1L._SL1500_.jpg",
+		"brand": "samsung",
+		"rating": 4.2,
+		"price": 76000,
+		"currency": "inr"
+	}, {
+		"id": 10,
+		"name": "S10+",
+		"image": "https://images-na.ssl-images-amazon.com/images/I/61YVqHdFRxL._SL1322_.jpg",
+		"brand": "samsung",
+		"rating": 4.1,
+		"price": 86000,
+		"currency": "inr"
+	}]
+}
